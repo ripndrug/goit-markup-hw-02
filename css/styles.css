@@ -19,7 +19,7 @@
 body {
   font-family: var(--font-family, --second-family);
 
-  color: var(--navy-blue);
+  color: var(--slate);
   background-color: #ffffff;
 }
 
@@ -38,11 +38,12 @@ a {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue);
+
+  color: var(--iris);
 }
 
 .logo-web {
-  color: var(--iris);
+  color: var(--navy-blue);
 }
 
 .nav-item-link {
@@ -51,6 +52,10 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+}
+
+.nav-address {
+  font-style: normal;
 }
 
 .nav-address-link {
@@ -84,7 +89,8 @@ a {
   cursor: pointer;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--ocean);
 }
 
@@ -112,6 +118,14 @@ a {
   color: var(--slate);
 }
 
+.team {
+  background: var(--cloud);
+}
+
+.team-list-item {
+  background: var(--white);
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -119,6 +133,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue);
+  text-transform: capitalize;
 }
 
 .team-member {
@@ -136,6 +151,16 @@ a {
   color: var(--slate);
 }
 
+.portfolio-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+  text-transform: capitalize;
+}
+
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
@@ -151,7 +176,7 @@ a {
   color: var(--slate);
 }
 
-.logo.logo-footer {
+.footer-section .logo-web {
   color: var(--cloud);
 }
 
